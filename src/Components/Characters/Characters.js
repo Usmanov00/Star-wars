@@ -30,7 +30,7 @@ const Characters = () => {
           characters.results.map((people, index) => (
             <div key={index} className="col-4">
               <div className="element-item">
-                <img src={`https://starwars-visualguide.com/assets/img/characters/${index + 1}.jpg`} alt=""
+                <img src={`https://starwars-visualguide.com/assets/img/characters/${10 * page + index + 1}.jpg`} alt=""
                      className="element-img"/>
                 <h2>
                   <span>Name: </span>{people.name}

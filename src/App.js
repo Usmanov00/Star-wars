@@ -5,6 +5,8 @@ import Films from "./Components/Films";
 import Species from "./Components/Species";
 import Characters from "./Components/Characters";
 import Header from "./Components/Header";
+import Starships from "./Components/Starships";
+
 
 
 const App = () => {
@@ -17,6 +19,8 @@ const App = () => {
           <Route path="/Characters" element={<Characters/>} />
           <Route path="/Films" element={<Films/>} />
           <Route path="/Species" element={<Species/>} />
+          <Route path="/Starships" element={<Starships/>} />
+
         </Routes>
       </div>
 
